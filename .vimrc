@@ -27,6 +27,8 @@ if dein#load_state(s:plugin_base)
   call dein#add('Shougo/vimfiler.vim')
   call dein#add('Shougo/neocomplete.vim')
   call dein#add('itchyny/lightline.vim')
+  call dein#add('kannokanno/previm')
+  call dein#add('tyru/open-browser.vim')
 
   call dein#end()
   call dein#save_state()
@@ -94,6 +96,10 @@ colorscheme molokai
 "########################################
 "VimFiler
 noremap <C-e> :VimFilerExplorer<CR>
+
+"previm
+autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
+let g:previm_open_cmd=''
 
 "neocomplete
 "Note: This option must be set in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
