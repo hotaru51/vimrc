@@ -29,6 +29,7 @@ if dein#load_state(s:plugin_base)
   call dein#add('itchyny/lightline.vim')
   call dein#add('kannokanno/previm')
   call dein#add('tyru/open-browser.vim')
+  call dein#add('tomasr/molokai')
 
   call dein#end()
   call dein#save_state()
