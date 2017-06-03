@@ -2,7 +2,7 @@
 if has('win32')
   set guifont=Migu\ 1M:h11:cSHIFTJIS
 elseif has('mac')
-  set guifont=Migu\ 1M:h14
+  set guifont=Migu\ 1M:h15
 else "Linux
 endif
 
