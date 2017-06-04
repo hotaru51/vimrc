@@ -4,6 +4,7 @@ if has('win32')
 elseif has('mac')
   set guifont=Migu\ 1M:h15
 else "Linux
+  set guifont=Migu\ 1M
 endif
 
 "カラースキーム
