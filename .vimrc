@@ -85,6 +85,7 @@ noremap <C-n> gt
 noremap <C-p> gT
 
 "カレントディレクトリ変更
+cd $HOME
 autocmd BufRead * lcd %:h
 
 "カラースキーム
